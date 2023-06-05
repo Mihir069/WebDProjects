@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/formInfo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Information</h1>
+    
+        <form id="form" action="#" >
+            <div class="form-box" >
+                <label>Name</label>
+                <input type="text" id="Name" required placeholder="Name">
+            </div>
+            <div class="form-box" >
+                <label>Mother/Father Name</label>
+                <input type="text" id="PName" required placeholder="M/F Name">
+            </div>
+            <div class="form-box" >
+                <label>Date Of Birth</label>
+                <input type=" date" id="dob" required placeholder="Date Of Birth">
+            </div>
+            <div class="form-box" >
+                <label>Phone Number</label>
+                <input type="number" id="number" required placeholder="Phone Number">
+            </div>
+            <div class="form-box" >
+                <label>E-mail</label>
+                <input type="email" id="email" required placeholder="E-mail Address">
+            </div>
+            <div class="form-box">
+                <label>Address</label>
+                <textarea rows="4" cols="40" maxlength="200" id="address">Enter an address</textarea>            
+            </div>
+            <h3>Gender</h3>
+            <div class="form-box" >
+                <label >Male</label>
+                <input id="Gender" type="radio" value="Male">
+                <br><br>
+                <label >Female</label>
+                <input id="Gender" type="radio" value="Female">
+            </div>
+            <div class="form-box" >
+                <label>favourite Food</label>
+                <select id="selectfood">
+                    <option value="Select">(Select)</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Banana">Banana</option>
+                </select>
+            </div>
+            <div class="form-box">
+                <label>favourite Color</label>
+                <select id="selectcolor">
+                    <option value="Select">(Select)</option>
+                    <option value="Red">Red</option>
+                    <option value="Pink">Pink</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                </select>
+            </div>
+            <div class="form-box">
+                <button id="Save">Save</button>
+                <button id="Reset">Reset</button>
+            </div>
+        </form>
+    </div>
+    <script src="./js/form.js"></script>
+</body>
+</html>

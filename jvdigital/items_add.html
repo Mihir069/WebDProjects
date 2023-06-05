@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/item_add.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Cart</h1>
+        <div class="row">
+            <div class="item-content">
+                <span class="items-title">ADD ITEMS</span>
+                <div class="row">
+                    <form id="item-form">
+                        <div class="item-input">
+                            <input type="text" id="item-name">
+                            <label for="item-name"></label>
+                        </div>
+                        <input type="submit" value="ADD ITEMS" class="btn">
+                        <!-- <a href="#" class="clear-List">CLEAR LIST</a> -->
+                    </form>
+                </div>
+            </div>
+            <div class="item-action">
+                <h5 id="items-title">ITEMS</h5>
+                <div class="row">
+                    <div class="input-field">
+                        <input type="text" id="filter">
+                    </div>
+                    <ul class="collection"></ul>
+                    
+                    <div class="space">
+                        <a href="#" class="clear-List">CLEAR LIST</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/item_add.js"></script>
+</body>
+</html>

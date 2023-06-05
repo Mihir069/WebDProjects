@@ -1,0 +1,28 @@
+First name
+Midle name 
+Last name
+
+Father/Mother name
+DOB // add calender
+sex  /radio button
+Email 
+Phone number ///
+Address --textares max-limit 200 char
+
+Category ---- Apple, Mango..etc 5 //checkbox
+
+Reset button and save button // save button only be enabled when all the fields are valid 
+
+
+output will be an Object having all the fields values
+{
+firstName: 'ssss',
+middleName: 'ss',
+lastrname: 'sss',
+category: ['apple', 'mango']
+}
+
+
+
+
+

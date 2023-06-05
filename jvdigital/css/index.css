@@ -1,0 +1,244 @@
+*{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+.topnav{
+    background-image: url("../img/header_bg.png");
+    height: 40px;
+}
+ul{
+    padding: 10px 0 8px 0;
+}
+ul li{
+    display: inline;
+    padding-right: 0;
+    
+}
+.container a img{
+    padding: 20px 0 24px;
+}
+ul li a{
+    text-decoration: none;  
+}
+
+ul li .email{
+   background: url('../img/envelop.png') no-repeat 0 0;
+   padding-left: 32px;
+   display: inline-block;
+}
+ul li .phone{
+    background:  url('../img/phone.png') no-repeat 0 0;
+    padding-top: 3px;
+    padding: 3px 0 0 28px;
+    display: inline-block;
+}
+ul li .whphone{
+    background: url('../img/phone2.png') no-repeat 0 0;
+    padding: 4px 0 0 32px;
+    display: inline-block;
+}
+.contact li{
+    padding-right: 30px;
+}
+.location{
+    float: right;
+    color: #434343;
+    padding: 20px 0 24px;
+}
+nav{
+   background-color: #e4e4e4; 
+}
+nav ul{
+    padding-bottom: 15px;
+}
+nav ul li{
+    font-size: 12px;
+}
+nav a{
+    color: #434343;
+    padding: 16px 30px;
+    transition: 1s ease;
+}
+nav a:hover{
+    background-color: #fff;
+}
+.banner img{
+    width: 100%;
+}
+.banner p{
+    padding : 20px 0 20px 0;
+    color: #878787;
+    font-family: 'Open Sans',arial;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+}
+article{
+    float: right;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+article a{
+    display: inline-block;
+    background-color: #2d2d2d;
+    padding: 8px;
+    margin: 10px;
+    text-decoration: none;
+}
+.section img{
+    display: inline;
+    box-shadow: 0 4px 8px 0 #565758, 0 6px 20px 0 #565758;
+}
+.section{
+    padding: 30px 0 20px;
+}
+.left article{
+    padding-right: 135px;
+    float: left;
+}
+.left article p,.left h2{
+    color: #2d2d2d;
+}
+.blue{
+    background: url('../img/bg-color.png') repeat;
+}
+.gray{
+    background-color: #404548;
+}
+.green{
+    background-color: #9ecb3c;
+}
+.map {
+    width: 100%;
+    float: left;
+
+    background: url('../img/location.png') no-repeat 0 0;
+}
+.inner {
+    width: 50%;
+    float: right;
+    background: url('.img/backcolor.png') repeat;
+}
+.address {
+    padding: 27px 0 0 156px;
+}
+.address li {
+    width: 100%;
+    float: left;
+    padding: 0 0 17px 0;
+    
+}
+.address li img {
+    float: left;
+    min-width: 36px;
+    text-align: center;
+    padding: 5px 0 0 0;
+    
+}
+.address li p {
+    float: left;
+    padding: 0 0 0 11px;
+    color: #ffffff;
+}
+.icon {
+    padding: 15px 0 20px 196px;
+}
+.icon li {
+    padding: 0 12px 0 0;
+}
+.location-background{
+    background: url('../img/backcolor.png') repeat;
+    width: 40%;
+    float: left;
+    height: 315px;
+    position: absolute;
+    right: 0;
+    opacity: 0.8;
+}
+.footer{
+    background-color: #0b0b0b;
+}
+.row{
+    display:inline-block;
+}
+.column{
+    width: 13%;
+    float: left;
+    padding: 0 110px 0 0;
+}
+.column ul li{
+    float: left;
+    width: 126%;
+    padding: 0 0 10px 0;
+}
+.column h4{
+    font-family:'Open Sans',arial;
+    width: 133%;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.youtube{
+    background: url('../img/youtube.png') no-repeat 0 0;
+    padding: 12px 0 15px 52px;
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    margin: 10px 0 0 19px;
+}
+.bottom-footer {
+    background: #000;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+}
+nav ul li:hover .menu{
+    display: block;
+}
+.menu a {
+    padding: 12px 70px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.menu-1 a{
+    padding: 12px 70px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.menu a:hover {
+    background-color: #ddd;
+}
+.menu{
+    display: none;
+    margin-top: 15px;
+    position: absolute;
+    background-color: #f9f9f9;
+    
+}
+.menu-1{
+    display: none;
+    margin: 0 0 0 168px;
+    position: absolute;
+    background-color: #f9f9f9;
+
+}
+.menu li,.menu-1 li{
+    padding: 0 0 0 0;
+}
+.menu ul li:hover .menu-1 {
+    display: block;
+    position: absolute;
+    padding: 12px 16px;
+    top: 0;
+    background-color:#f9f9f9;
+}
+
+
+  

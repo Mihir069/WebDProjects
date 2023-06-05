@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Open Sans',arial;
+}
+.container {
+    margin: 0 auto;
+    width: 700px;
+    background-color:#878787 ;
+    box-shadow:  0 4px 8px 0 #565758, 0 6px 20px 0 #565758;;
+}
+.row p{
+    font-size: 30px;
+}
+.row div{
+    font-size: 25px;
+}
+.row label{
+    font-size: 20px;
+    display: block;
+} 
+.row input{
+    display: inline;
+    margin-right: 20px;
+}
+.row .email{
+    width: 89%;
+}
+.inline{
+    width: 30%;
+    padding: 10px 25px 10px 25px;
+}
+.row .inner{
+    display: inline;
+}
+.btn{
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 20px 0px;
+}
+
