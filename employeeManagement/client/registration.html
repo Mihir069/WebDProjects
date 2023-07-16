@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="signup" class="form">
+            <div class="form-sucess hide">
+                <div class="alert green">
+                    <strong>Account created successfully! </strong>
+                    <a href="./login.html">Login</a>
+                </div>
+                
+            </div>
+
+            <div class="error hide">
+                <div class="alert red">
+                    <strong>Something went wrong please try after sometime</strong>
+                </div>
+            </div>
+
+            <div class="form-container show">
+                <h1>Sign Up</h1>
+                <div class="form-field">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" >
+                    <span></span>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                    <span></span>
+                </div>
+
+                <div class="form-field">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" autocomplete="off" >
+                    <span></span>
+                </div>
+
+
+                <div class="form-field">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" name="confirm-password" id="confirm-password" autocomplete="off">
+                    <span></span>
+                </div>
+
+                <div class="form-field">
+                    <input type="submit" value="Sign Up">
+                    <div class="inner-field">Already have account? <a href="./login.html">login</a></div>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    <script src="./js/registration.js"></script>
+</body>
+</html>
