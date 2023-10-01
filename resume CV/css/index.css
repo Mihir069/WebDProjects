@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+    
+    font-family: Inter, sans-serif;
+    background-color: #0000FF;
+    color: #ffffff;
+}
+.container{
+    width: 100%;
+    background: #dae8fe;
+    margin: 0 auto;
+    @media(min-width: 1225px){
+        width: 1000px;
+        display: grid;
+    }
+}
+a {
+	text-decoration: underline;
+	color: #000000;
+    font-weight: 500;
+
+}
+a:hover{
+    color: #0000FF;
+}
+h3{
+    color: #0000FF;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.font_size_small{
+    font-size: 14px;
+    line-height: 1.2;
+}
+section{
+    display: flex;
+    background: #ffffff;
+    margin-bottom: 5px;
+}
+.inner-section{
+    display: flex;
+    width: 100%;
+    margin: 0 50px 0 50px;
+}
+.profile{
+    margin: 20px;
+}
+.profile_container{
+    display: inline;
+    @media (min-width:1225px) {
+        display: flex;
+    }
+}
+.profile_image{
+    max-width: 250px;
+}
+img{
+    width: 100%;
+}
+.profile_detail{
+    margin: 20px;
+}
+
+.profile_firstName{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: block;
+}
+.profile_lastName{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.profile_title{
+    margin: 5px;
+    font-size:15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.profile_description{
+    margin:5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+
+}
+.skills,
+.education,
+.experience,
+.workshop,
+.workspace,
+.contact,
+.social{
+    margin: 20px;
+    line-height: 2;
+    width: 100%;
+}
+ul li{
+    list-style-type: none;
+}
+.project_name,
+.workshop_name{
+    font-size: 20px;
+    font-weight: 600;
+}
+footer{
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	gap: 200px;
+    border-top: 1px solid #000000;
+}
+.contact_details,
+.social_details{
+    font-size: 16px;
+    font-weight: 600;
+    color: #4f4f4f;
+
+}
+.social_details img{
+    width: 10px;
+    height: 10px;
+}
+.social_details a{
+    display: inline;
+    padding: 5px 3px  10px 30px;
+}
+.github{
+    background: url("../img/icons8-github-30.png") no-repeat;
+}
+.linkedin{
+    background: url("../img/icons8-linked-in-30.png") no-repeat;
+}
+.instagram{
+    background: url("../img/icons8-instagram-24.png") no-repeat;
+}
